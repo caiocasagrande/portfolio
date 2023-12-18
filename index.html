@@ -7,19 +7,24 @@
 <html>
 	<head>
 		<title>Portfólio de Caio Casagrande</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+
+	<!-- <head>
+		<title>Portfólio de Caio Casagrande</title>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+	</head> -->
+	
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1>Olá, eu sou <strong>Caio Casagrande</strong><br />
-					e este é o meu portfólio de projetos<br />
-					de Análise e <strong>Ciência de Dados</strong>.</h1>
+					<h1>Olá, eu sou <strong>Caio Casagrande</strong> e este é o meu portfólio de projetos de Análise<br/> e <strong>Ciência de Dados</strong>.</h1>
 				</div>
 			</header>
 
@@ -53,242 +58,456 @@
 
 				<!-- Three -->
 					<section id="three">
-						<h1>Projetos</h1>
+						<h1>Projetos de Ciência de Dados</h1>
+
+						<div>
+						<!-- Introdução aos Projetos -->
+						<section id="intro">
+							<h2>Introdução aos projetos</h2>
+							<p>Os seguintes projetos foram todos desenvolvidos em <strong>Python</strong>, seguindo a metodologia <strong>CRISP-DM</strong> (Cross-Industry Standard Process for Data Mining). Cada projeto tem como foco resolver um problema de negócio específico, utilizando técnicas de análise de dados e machine learning para obter insights.</p>
+						</section>
+						</div>
+
 						<div class="row">
 
 							<!-- Primeiro Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
+								
+								<h2>Classificação de Clientes InStyle</h2>
+								
 								<a href="images/fulls/instyle-fulls.jpg" class="image fit thumb"><img src="images/thumbs/instyle-thumbs.jpg" alt="" /></a>
 								
-								<h2>Clientes InStyle</h2>
-								
-								<span>A loja de moda InStyle é uma grande loja de roupas, mas enfrenta desafios significativos em relação à experiência do cliente. Em vista de que para aumentar as receitas de uma loja é necessário priorizar a satisfação dos clientes, a InStyle montou uma equipe com a tarefa de treinar um algoritmo para classificar os clientes de uma planilha em “Satisfeito” ou “Neutro/Insatisfeito”, prevendo quais clientes ficarão Insatisfeitos e portanto agindo rápido para entender o motivo da insatisfação e reverter o cenário do cliente.
-								<br/>Os objetivos são: Gerar insights através dos dados; Produzir informações visuais sobre a base de clientes da empresa; Classificar e identificar os clientes insatisfeitos através de um algoritmo de Machine Learning.</span>
+								<section>
+									<h3>Problema de Negócio:</h3>
+										<ul>
+											<li>A loja de moda InStyle enfrenta desafios significativos em relação à experiência do cliente</li>
+											<li>A equipe foi encarregada de treinar um algoritmo para classificar clientes entre "Satisfeito" e "Neutro ou Insatisfeito", prevendo clientes insatisfeitos para agir rapidamente e reverter o cenário</li>
+										</ul>
+									
+									<h3>Objetivos:</h3>
+										<ul>
+											<li>Gerar insights através dos dados</li>
+											<li>Produzir informações visuais sobre a base de clientes</li>
+											<li>Classificar e identificar clientes insatisfeitos através de um algoritmo de Machine Learning</li>
+										</ul>
 
-								<h3>As ferramentas utilizadas foram:</h3>
-								
-								<ul>
-									<li>Git, GitHub, Python, VSCode</li>
-									<li>Pandas, Numpy, Matplotlib, Seaborn</li>
-									<li>Análise Exploratória de Dados</li>
-									<li><strong>Logistic Regression, RandomForestClassifier, XGBClassifier, LGBMClassifier</strong></li>
-									<li>Acurácia, Precisão, Recall, F1 Score, Classification Report e Matriz de Confusão</li>
-									<li>Cross-Validation e Hyperparameter Tuning (RandomizerSearchCV)</li>
-									<li>Análise de resultados além do Machine Learning</li>
-								</ul>
-
-								<h3>Saiba mais sobre o projeto em:</h3>
-								<ul class="icons">
-									<li><a href="https://github.com/caiocasagrande/instyle/blob/main/notebooks/instyle.ipynb" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-<!-- 									<li><a href="https://caio-casagrande.streamlit.app/">Streamlit</a></li> -->
-								</ul>
-							</article>
+									<h3>Benefícios:</h3>
+										<ul>
+											<li>Elevação da satisfação do cliente</li>
+											<li>Fidelização e retenção</li>
+											<li>Direcionamento eficiente de marketing</li>
+											<li>Otimização de custos</li>
+											<li>Otimização do fluxo de trabalho</li>
+										</ul>
+									
+									<h3>Ferramentas Utilizadas:</h3>
+										<ul>
+											<li>Pandas, Numpy, Matplotlib, Seaborn</li>
+											<li>Análise Exploratória de Dados</li>
+											<li><strong>Logistic Regression, RandomForestClassifier, XGBClassifier, LGBMClassifier</strong></li>
+											<li>Acurácia, Precisão, Recall, F1 Score, Classification Report e Matriz de Confusão</li>
+											<li>Cross-Validation e Hyperparameter Tuning (RandomizerSearchCV)</li>
+										</ul>
+								</section>
 							
+								<section>
+									<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/instyle/blob/main/notebooks/instyle.ipynb" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+								</section>
+
+							</article>
+
 							<!-- Segundo Projeto -->
 
+							<!-- Projeto: Previsão de Destino de Táxis -->
+
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/heart-fulls.jpg" class="image fit thumb"><img src="images/thumbs/heart-thumbs.jpg" alt="" /></a>
-								
-								<h2>Detecção de Doencas Cardiovasculares</h2>
-								
-								<span>Cardio Catch Disease é uma empresa de saúde especializada no diagnóstico de doenças cardiovasculares em estágios iniciais. Seu modelo de negócio oferece esse diagnóstico precoce de doenças cardiovasculares por um determinado preço. O problema é que a precisão do diagnóstico varia entre 55% e 65%, refletindo a sua complexidade e a limitada disponibilidade de médicos. 
-								<br/>O objetivo é criar um modelo que melhore a precisão do diagnóstico de forma estável e eficiente para todos os clientes. A precisão do modelo agora está em 75%, o que gera uma receita de $ 173.665.751,75. Considerando a precisão anterior, o novo modelo gera um incremento de $ 68.665.751,75.</span>
+								<h2>Previsão de Destino de Táxis</h2>
 
-								<h3>As ferramentas utilizadas foram:</h3>
-								
-								<ul>
-									<li>Git, GitHub, Python, VSCode</li>
-									<li>Pandas, Numpy, Matplotlib, Seaborn</li>
-									<li>Análise Exploratória de Dados</li>
-									<li><strong>Logistic Regression, ExtraTreesClassifier, RandomForestClassifier, LGBMClassifier</strong></li>
-									<li>Acurácia, Precisão, Recall, F1 Score, Classification Report e Matriz de Confusão</li>
-									<li>Cross-Validation e Hyperparameter Tuning (RandomizerSearchCV)</li>
-									<li>Business Performance</li>
-								</ul>
+								<a href="images/fulls/taxi-fulls.png" class="image fit thumb"><img src="images/thumbs/taxi-thumbs.png" alt="" /></a>
 
-								<h3>Saiba mais sobre o projeto em:</h3>
-								<ul class="icons">
-									<li><a href="https://github.com/caiocasagrande/cardiovascular_disease" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-<!-- 									<li><a href="https://caio-casagrande.streamlit.app/">Streamlit</a></li> -->
-								</ul>
+								<section>
+									<h3>Contexto de Negócio:</h3>
+									<ul>
+										<li>Com as novas tecnologias, a indústria de táxis precisou se reinventar para não ficar para trás em relação aos seus novos concorrentes</li>
+										<li>Um dos desafios é o novo sistema eletrônico de despacho em tempo real, o qual não define o destino final das corridas</li>
+										<li>Em razão desse problema, a proposta é desenvolver um modelo preditivo que seja capaz de inferir o destino final de corridas de táxi com base em suas localizações de coleta</li>
+									</ul>
+
+									<h3>Objetivos:</h3>
+									<ul>
+										<li>Entender o problema de negócio</li>
+										<li>Análise dos dados das viagens</li>
+										<li>Modelo de previsão de ponto de destino</li>
+										<li>Apresentação descrevendo o problema e conclusões</li>
+									</ul>
+
+									<h3>Performances:</h3>
+									<ul>
+										<li>O modelo final (LightGBM) performou bem e com resultados satisfatórios, com erros menores que 1 km</li>
+										<li>Minimização de quilometragem vazia</li>
+										<li>Maior satisfação do cliente</li>
+										<li>Otimização de recursos</li>
+										<li>Mais viagens em menos tempo</li>
+										<li>Planejamento operacional</li>
+										<li>Vantagem competitiva frente aos aplicativos</li>
+									</ul>
+
+									<h3>Ferramentas Utilizadas:</h3>
+										<ul>
+											<li>Pandas, Numpy, Math, Matplotlib, Seaborn</li>
+											<li>Folium</li>
+											<li>Análise Exploratória de Dados</li>
+											<li><strong>LGBMRegressor</strong></li>
+											<li>Erro Absoluto Médio, Erro Médio Quadrático</li>
+											<li>Pickle</li>
+											<li>Hyperparameter Tuning com GridSearch CV</li>
+										</ul>
+									
+								</section>
+
+								<section>
+									<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/taxi" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+								</section>
 							</article>
 
+														
 							<!-- Terceiro Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/rossmann.jpg" class="image fit thumb"><img src="images/thumbs/rossmann.jpg" alt="" /></a>
 								
-								<h2>Previsão de vendas de Rossmann</h2>
+								<h2>Detecção de Doencas Cardiovasculares</h2>
 								
-								<span>Neste projeto foi desenvolvido um modelo de previsão de vendas para as próximas seis semanas com o objetivo de prever quanto dinheiro cada loja da Rossmann terá disponível para gastar em suas reformas.</br >
-									Através de uma Análise Exploratória de Dados completa, a empresa obteve insights valiosos sobre os fatores que influenciam as vendas. Ademais, vários modelos de Machine Learning foram testados a fim de fornecer uma base sólida de informações para as tomadas de decisões dos executivos da Rossmann.</span>
+								<a href="images/fulls/heart-fulls.jpg" class="image fit thumb"><img src="images/thumbs/heart-thumbs.jpg" alt="" /></a>
+								
+								<section>
+									<h3>Contexto de Negócio:</h3>
+										<ul>
+											<li>Cardio Catch Disease é uma empresa de saúde especializada no diagnóstico de doenças cardiovasculares em estágios iniciais</li>
+											<li>Seu modelo de negócio oferece esse diagnóstico precoce de doenças cardiovasculares por um determinado preço</li>
+											<li>O problema é que a precisão do diagnóstico varia entre 55% e 65%, refletindo a sua complexidade e a limitada disponibilidade de médicos</li>
+										</ul>
+									
+									<h3>Objetivos:</h3>
+										<ul>
+											<li>Criar um modelo que melhore a precisão do diagnóstico de forma estável e eficiente para todos os clientes</li>
+											<li>1. Precisão do novo modelo</li>
+											<li>2. Qual a receita que o novo modelo retorna?</li>
+											<li>3. Quão confiáveis são os resultados da nova ferramenta?</li>
+										</ul>
 
-								<h3>As ferramentas utilizadas foram:</h3>
-								<ul>
-									<li>Git, GitHub, Python</li>
-									<li>VSCode</li>
-									<li>Pandas, Numpy, Matplotlib, Seaborn</li>
-									<li><strong>Scikit-learn, XGBoost, LightGBM</strong></li>
-									<li>Análise Exploratória de Dados</li>
-									<li><em>MAE, MAPE, MSE, R²</em></li>
-									<li><em>Robust Scaler, Min-Max Scaler, Label Encoder</em></li>
-									<li>Cross-Validation</li>
-									<li>Linear Regression, Lasso Regression</li>
-									<li>Random Forest Regressor</li>
-									<li><em>Hyperparameter Tuning</em></li>
-								</ul>
-
-								<h3>Saiba mais em:</h3>
-
-								<ul class="icons">
-									<li><a href="https://github.com/caiocasagrande/rossmann" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									<!-- <li><a href="https://medium.com/@caiopcasagrande" class="icon brands fa-medium"><span class="label">Medium</span></a></li> -->
-								</ul>
+									<h3>Resultados alcançados:</h3>
+										<ul>
+											<li>A precisão do modelo agora está em 75%</li>
+											<li>Nova receita de $173.665.751,75</li>
+											<li>O novo modelo gera um incremento de $68.665.751,75</li>
+										</ul>
+									
+									<h3>Ferramentas Utilizadas:</h3>
+										<ul>
+											<li>Pandas, Numpy, Matplotlib, Seaborn</li>
+											<li>Análise Exploratória de Dados</li>
+											<li><strong>Logistic Regression, ExtraTreesClassifier, RandomForestClassifier, LGBMClassifier</strong></li>
+											<li>Acurácia, Precisão, Recall, F1 Score, Classification Report e Matriz de Confusão</li>
+											<li>Cross-Validation e Hyperparameter Tuning (RandomizerSearchCV)</li>
+										</ul>
+								</section>
+								
+								<section>
+									<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/cardiovascular_disease" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+								</section>
 
 							</article>
 
 							<!-- Quarto Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/price_elasticity.jpg" class="image fit thumb"><img src="images/thumbs/price_elasticity.jpg" alt="" /></a>
 								
-								<h2>Projeto de elasticidade-preço da demanda</h2>
+								<h2>Previsão de Vendas de Rossmann</h2>
 								
-								<span>Neste projeto fictício, exploro a elasticidade-preço da demanda por laptops e computadores. A análise emprega princípios fundamentais de elasticidade de preços para descobrir insights que possam orientar a tomada de decisões estratégicas. O objetivo é entender como as variações de preços impactam a demanda do consumidor por esses produtos.
-								<br/>Este projeto demonstra a importância da modelagem econômica e da ciência de dados, oferecendo uma breve visão do valor potencial de tal análise para empresas que operam no mundo real.</span>
+								<a href="images/fulls/rossmann.jpg" class="image fit thumb"><img src="images/thumbs/rossmann.jpg" alt="" /></a>
 
-								<h3>As ferramentas utilizadas foram:</h3>
-								
-								<ul>
-									<li>Git, GitHub, Python</li>
-									<li>VSCode</li>
-									<li>Pandas, Numpy, Matplotlib, Seaborn</li>
-									<li>Análise Exploratória de Dados</li>
-									<li><strong>Statsmodels</strong></li>
-									<li>Streamlit App</li>
-								</ul>
+								<section>
+									<h3>Problema de Negócio:</h3>
+									<ul>
+										<li>O CEO da rede de farmácias Rossmann planeja renovar as suas lojas pois a marca está passando por um rebranding, mas não sabe o quanto cada uma terá a disposição para investir nas reformas</li>
+									</ul>
 
-								<h3>Saiba mais sobre o projeto em:</h3>
-								<ul class="icons">
-									<li><a href="https://github.com/caiocasagrande/price_elasticity_of_demand/blob/main/notebooks/price_elasticity.ipynb" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									<li><a href="https://price-elasticity-caio-casagrande.streamlit.app/">Streamlit</a></li>
-								</ul>
+									<h3>Solução:</h3>
+									<ul>
+										<li>Vários modelos de Machine Learning foram testados a fim de prever o faturamento das lojas para as seis semanas seguintes, com o objetivo de prever quanto dinheiro cada loja da Rossmann terá disponível para gastar em suas reformas</li>
+									</ul>
+									
+									<h3>Resultados:</h3>
+									<ul>
+										<li>Através de uma Análise Exploratória de Dados completa, a empresa obteve insights valiosos sobre os fatores que influenciam as vendas, fornecendo uma base sólida para a tomada de decisões</li>
+										<li>O projeto entregou com sucesso um Modelo de Previsão de Vendas, a fim de otimizar a alocação de recursos para renovações de lojas Rossmann</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Ferramentas Utilizadas:</h3>
+									<ul>
+										<li>Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn</li>
+										<li>Análise Exploratória de Dados</li>										
+										<li><em>Robust Scaler, Min-Max Scaler, Label Encoder</em></li>
+										<li>Linear Regression, Lasso Regression</li>
+										<li>Random Forest Regressor, XGBoost, LightGBM</strong></li>
+										<li><em>MAE, MAPE, MSE, R²</em></li>
+										<li>Cross-Validation</li>
+										<li>Hyperparameter Tuning</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/rossmann" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+								</section>
+
 							</article>
 
 							<!-- Quinto Projeto -->
 
+							<!-- Projeto: Elasticidade-preço da demanda -->
+
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/credit_scoring.jpg" class="image fit thumb"><img src="images/thumbs/credit_scoring.jpg" alt="" /></a>
 								
-								<h2>Credit Scoring for Conservative Bank</h2>
+								<h2>Projeto de elasticidade-preço da demanda</h2>
 								
-								<span>Aumentando a rentabilidade através de um Credit Score para um banco conservador. Para realizar esse projeto, o primeiro passo foi realizar uma Análise Exploratória de Dados detalhada para entendermos melhor a base de dados e como ela está distribuída. 
-									<br/>Após Data Cleaning e Feature Engineering, o projeto focou em implementar três modelos de Machine Learning para classificar os clientes em decis.</span>
+								<a href="images/fulls/price_elasticity.jpg" class="image fit thumb"><img src="images/thumbs/price_elasticity.jpg" alt="" /></a>
 
-								<h3>As ferramentas utilizadas foram:</h3>
-								
-								<ul>
-									<li>Git, GitHub, Python</li>
-									<li>VSCode</li>
-									<li>Pandas, Numpy, Matplotlib, Seaborn</li>
-									<li>Análise Exploratória de Dados</li>
-									<li><strong>Sklearn, LightGBM, CatBoost</strong></li>
-									<li>RandomForestClassifier</li>
-									<li>Encoders</li>
-									<li>KNN Imputer</li>
-									<li><em>Confusion Matrix, Classification Report, Accuracy Score, ROC Curve</em></li>
-								</ul>
+								<section>
+									<h3>Contexto:</h3>
+									<ul>
+										<li>Neste projeto fictício, exploro a elasticidade-preço da demanda por laptops e computadores</li>
+										<li>A análise emprega princípios fundamentais de elasticidade de preços para descobrir insights que possam orientar a tomada de decisões estratégicas</li>
+									</ul>
 
-								<h3>Saiba mais sobre o projeto em:</h3>
-								<ul class="icons">
-									<li><a href="https://github.com/caiocasagrande/credit_score/blob/main/notebooks/credit_risk_notebook.ipynb" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									<!-- <li><a href="https://caio-casagrande.streamlit.app/">Streamlit</a></li> -->
-								</ul>
+									<h3>Objetivos:</h3>
+									<ul>
+										<li>Escolher a categoria mais vendida da loja com mais vendas para aplicar a análise</li>
+										<li>Entender como as variações de preços impactam a demanda do consumidor por produtos elásticos</li>
+									</ul>
+
+									<h3>Resultados:</h3>
+									<ul>
+										<li>Análise Exploratória de Dados com vários insights</li>
+										<li>Tabela com nomes dos produtos elásticos, a renda que geram atualmente, a variação de faturamento que podem gerar em valores monetários e em porcentagem</li>
+										<li>O projeto demonstra a importância da modelagem econômica para empresas</li>
+										
+									</ul>
+								</section>
+
+								<section>
+									<h3>Ferramentas Utilizadas:</h3>
+									<ul>
+										<li>Pandas, Numpy, Matplotlib, Seaborn</li>
+										<li>Análise Exploratória de Dados</li>
+										<li><strong>Statsmodels</strong></li>
+										<li>Streamlit App</li>
+									</ul>
+
+									<section>
+										<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/price_elasticity_of_demand/blob/main/notebooks/price_elasticity.ipynb" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+										<h3>Veja o Dashboard no <a href="https://price-elasticity-caio-casagrande.streamlit.app/">Streamlit</a></h3>
+									</section>
+
+								</section>
 							</article>
 
 							<!-- Sexto Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/fraud-detection.jpg" class="image fit thumb"><img src="images/thumbs/fraud-detection.jpg" alt="" /></a>
-								
-								<h2>Fraud Detection</h2>
-								
-								<span>O objetivo é construir um mecanismo de defesa para a instituição financeira fundamentado em técnicas de Ciência de Dados para fortalecer a infraestrutura de segurança e elevar a precisão dos processos de tomada de decisão. Antes de modelar, o projeto possui Análise Exploratória de Dados, preparação de dados com Encoders e Scalers e balanceamento de dados com SMOTE. A partir dos modelos testados, eles são analisados e interpretados por diferentes métricas até chegarmos ao modelo final de detecção de fraude.</span>
 
-								<h3>As ferramentas utilizadas foram:</h3>
-								<ul>
-									<li>Git, GitHub, Python</li>
-									<li>Pandas, Numpy, Matplotlib, Seaborn, Graphviz</li>
-									<li>Análise Exploratória de Dados</li>
-									<li><em>Confusion Matrix, Accuracy, Recall, Precision, F1 Score</em></li>
-									<li><em>ROC Curve, ROC AUC Curve</em></li>
-									<li>SMOTE</li>
-									<li><em>One-Hot Encoding, Label Encoder, Robust Scaler</em></li>
-									<li><strong>Logistic Regression, Decision Tree Classifier, Random Forest Classifier</strong></li>
-									<li>Hyperparameter Tuning, Randomized Search CV</li>
-								</ul>
+								<h2>Credit Scoring for Conservative Bank</h2>
 
-								<h3>Saiba mais em:</h3>
-								<ul class="icons">
-									<li><a href="https://github.com/caiocasagrande/fraud_detection/blob/main/notebooks/fraud_detection.ipynb" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									<!-- <li><a href="https://caio-casagrande.streamlit.app/">Streamlit</a></li> -->
-								</ul>
-								
+								<a href="images/fulls/credit_scoring.jpg" class="image fit thumb"><img src="images/thumbs/credit_scoring.jpg" alt="" /></a>
+
+								<section>
+									<h3>Sobre Credit Score:</h3>
+									<ul>
+										<li>Ferramenta crucial para instituições financeiras avaliarem seus clientes e a quantidade de dinheiro envolvida</li>
+										<li>A análise engloba vários fatores, como renda anual, situação de propriedade de casa própria, valor do empréstimo e taxa de juros cobrada</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Objetivo:</h3>
+									<ul>
+										<li>Executar uma análise de pontuação de crédito para aumentar a rentabilidade de um banco conservador</li>
+										<li>Realizar uma Análise Exploratória de Dados detalhada para entender melhor a base de dados e sua distribuição</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Resultado:</h3>
+									<ul>
+										<li>O resultado final é uma tabela com os clientes separados em decis</li>
+										<li>Informações mais relevantes em cada divisão incluem quantidade de clientes envolvidos, quantos são bons, quantos são ruins, porcentagem de maus clientes evitada e o lucro que cada seleção de clientes proporciona</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Ferramentas Utilizadas:</h3>
+									<ul>
+										<li>Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn</li>
+										<li>Análise Exploratória de Dados</li>
+										<li>Encoders</li>
+										<li>KNN Imputer</li>
+										<li>RandomForestClassifier</li>
+										<li><strong>LightGBM, CatBoost</strong></li>
+										<li><em>Confusion Matrix, Classification Report, Accuracy Score, ROC Curve</em></li>
+									</ul>
+
+									<section>
+										<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/credit_score/blob/main/notebooks/credit_risk_notebook.ipynb" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+									</section>
+									
+								</section>
 							</article>
-							
+
 							<!-- Sétimo Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/credit_score.jpg" class="image fit thumb"><img src="images/thumbs/credit_score.jpg" alt="" /></a>
-								
-								<h2>Bank Credit Scoring</h2>
-								
-								<span>O Projeto Credit Score deste banco teve como objetivo construir um modelo de risco interno. O objetivo principal é otimizar a rentabilidade, mas além disso o banco pretende encontrar um equilíbrio entre rentabilidade e expansão do mercado, alinhando-se com os seus objetivos estratégicos de um negócio em ascensão. Este Projeto de Pontuação de Crédito equipa o banco com as ferramentas necessárias para tomar decisões de empréstimo sobre os clientes.</span>
 
-								<h3>As ferramentas utilizadas foram:</h3>
-								<ul>
-									<li>Git, GitHub, Python</li>
-									<li>VSCode</li>
-									<li>Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn</li>
-									<li>Análise Exploratória de Dados</li>
-									<li><em>Classification Report, Confusion Matrix, Accuracy Score, ROC Curve</em></li>
-									<li><em>Robust Scaler</em></li>
-									<li><strong>Logistic Regression, Random Forest Classifier</strong></li>
-									<li>Streamlit App</li>
-								</ul>
+								<h2>Detecção de Fraudes</h2>
 
-								<h3>Saiba mais em:</h3>
-								<ul class="icons">
-									<li><a href="https://github.com/caiocasagrande/bank_credit_score/blob/main/notebooks/bank_credit_scoring.ipynb" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									<li><a href="https://credit-scoring-bank-caio-casagrande.streamlit.app/">Streamlit</a></li>
-								</ul>
-								
+								<a href="images/fulls/fraud-detection.jpg" class="image fit thumb"><img src="images/thumbs/fraud-detection.jpg" alt="" /></a>
+
+								<section>
+									<h3>A importância da deteção de fraude:</h3>
+									<ul>
+										<li>As repercussões da fraude vão além das perdas financeiras, incluindo danos à reputação, deterioração da confiança do cliente e possíveis ramificações legais</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Objetivo:</h3>
+									<ul>
+										<li>Construir um mecanismo de defesa para a instituição financeira fundamentado em técnicas de Ciência de Dados para fortalecer a infraestrutura de segurança e elevar a precisão dos processos de tomada de decisão</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Resultado Final:</h3>
+									<ul>
+										<li>O alto resultado de Recall dá confiança para seguir com esse modelo nas próximas etapas do projeto da instituição financeira, identificando uma fraude quando necessário</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Ferramentas Utilizadas:</h3>
+									<ul>
+										<li>Pandas, Numpy, Matplotlib, Seaborn, Graphviz</li>
+										<li>Análise Exploratória de Dados</li>
+										<li>SMOTE</li>
+										<li>One-Hot Encoding, Label Encoder, Robust Scaler</li>
+										<li><strong>Logistic Regression, Decision Tree Classifier, Random Forest Classifier</strong></li>
+										<li><em>Confusion Matrix, Accuracy, Recall, Precision, F1 Score</em></li>
+										<li>ROC Curve, ROC AUC Curve</li>
+										<li>Hyperparameter Tuning, Randomized Search CV</li>
+									</ul>
+
+									<section>
+										<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/fraud_detection/blob/main/notebooks/fraud_detection.ipynb" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+									</section>
+
+								</section>
 							</article>
-
+							
 							<!-- Oitavo Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/olist-fulls.png" class="image fit thumb"><img src="images/thumbs/olist-thumbs.png" alt="" /></a>
+								
+								<h2>Bank Credit Scoring</h2>
+								
+								<a href="images/fulls/credit_score.jpg" class="image fit thumb"><img src="images/thumbs/credit_score.jpg" alt="" /></a>
+							
+								<section>
+									<h3>Contexto sobre Credit Score:</h3>
+									<ul>
+										<li>O Score de Crédito é um indicador de risco para um cliente, utilizado para tomar decisões de negócios</li>
+										<li>Vários fatores influenciam neste número, como o histórico do cliente, linhas de crédito abertas, valor total, etc.</li>
+										<li>Alguns fatores para levar em consideração são: histórico de crédito limitado, tamanho da instituição financeira e a sua estratégia de mercado</li>
+									</ul>
+								</section>
+							
+								<section>
+									<h3>Objetivo:</h3>
+									<ul>
+										<li>Construir um modelo de risco interno para otimizar a rentabilidade e a segurança do negócio</li>
+										<li>O banco busca encontrar um equilíbrio entre rentabilidade e expansão do mercado, alinhando com seus objetivos estratégicos de um negócio em ascensão</li>
+									</ul>
+								</section>
+							
+								<section>
+									<h3>Conclusão:</h3>
+									<ul>
+										<li>Os decis 1, 2 e 3 de melhor desempenho são a escolha ideal para estratégias conservadoras de aprovação de empréstimos</li>
+										<li>O sexto decil surge como pico de rentabilidade, mas a exploração estratégica dos decis adjacentes proporciona oportunidades para maximizar o market-share</li>
+									</ul>
+								</section>
+							
+								<section>
+									<h3>Ferramentas Utilizadas:</h3>
+									<ul>
+										<li>Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn</li>
+										<li>Análise Exploratória de Dados</li>
+										<li>Robust Scaler</li>
+										<li><strong>Logistic Regression, Random Forest Classifier</strong></li>
+										<li><em>Classification Report, Confusion Matrix, Accuracy Score, ROC Curve</em></li>
+										<li>Streamlit App</li>
+									</ul>
+								</section>
+							
+								<section>
+									<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/bank_credit_score/blob/main/notebooks/bank_credit_scoring.ipynb" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+									<h3>Veja o Dashboard no <a href="https://credit-scoring-bank-caio-casagrande.streamlit.app/">Streamlit</a></h3>
+								</section>
+
+							</article>
+							
+							<!-- Nono Projeto -->
+
+							<article class="col-6 col-12-xsmall work-item">
 								
 								<h2>Análise Exploratória para Olist</h2>
-								
-								<span>Olist é uma empresa de e-commerce no Brasil que oferece uma ampla gama de produtos em sua plataforma. A empresa reconhece a importância de melhorar sua eficiência operacional e o primeiro passo para isso é entender mais sobre o comportamento de seus consumidores. 
-									<br/>A análise proprocionou vários insights de negócio, como descrição de preços, características de pedidos, tendências temporais, preferências de pagamentos, padrões regionais e diários, relação entre tempo de entrega e avaliação do pedido, etc.</span>
 
-								<h3>As ferramentas utilizadas foram:</h3>
-								<ul>
-									<li>Python, VSCode</li>
-									<li>Pandas, Numpy, <strong>Plotly Express</strong></li>
-									<li>Análise Exploratória de Dados</li>
+								<a href="images/fulls/olist-fulls.png" class="image fit thumb"><img src="images/thumbs/olist-thumbs.png" alt="" /></a>
+							
+								<section>
+									<h3>Contexto de Negócio:</h3>
+									<ul>
+										<li>Olist é uma empresa de e-commerce no Brasil que oferece uma ampla gama de produtos em sua plataforma</li>
+										<li>A empresa reconhece a importância de melhorar sua eficiência operacional e o primeiro passo para isso é entender mais sobre o comportamento de seus consumidores, variações nos pedidos, padrões de vendas por região, diferenças em preços e fretes por estado, satisfação dos clientes e mais</li>
+									</ul>
+								</section>
+							
+								<section>
+									<h3>Objetivo:</h3>
+									<ul>
+										<li>Criar uma Análise Exploratória de Dados (EDA) com os dados da empresa cobrindo diferentes áreas do negócio, como pedidos, produtos, consumidores, regiões, a fim de prover informação de qualidade para tomadas de decisão estratégicas</li>
+									</ul>
+								</section>
+							
+								<section>
+									<h3>Conclusão:</h3>
+									<ul>
+										<li>A análise proporcionou vários insights de negócio, como descrição de preços, características de pedidos, tendências temporais, preferências de pagamentos, padrões regionais e diários, relação entre tempo de entrega e avaliação do pedido, etc.</li>
+									</ul>
+								</section>
+							
+								<section>
+									<h3>Ferramentas Utilizadas:</h3>
+									<ul>
+										<li>Pandas, Numpy, <strong>Plotly Express</strong></li>
+										<li>Análise Exploratória de Dados</li>
+									</ul>
+							
+									<section>
+										<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/olist_eda" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+									</section>
 
-								</ul>
-
-								<h3>Saiba mais em:</h3>
-								<ul class="icons">
-									<li><a href="https://github.com/caiocasagrande/olist_eda" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								</ul>
-								
+								</section>
 							</article>
 
 							<!-- <article class="col-6 col-12-xsmall work-item">
@@ -367,7 +586,7 @@
 									<ul>
 										<li>Git, GitHub, GitLab, Cookiecutter</li>
 										<li>Streamlit, Python API's</li>
-										<li>AWS Amazon</li>
+										<li>AWS Amazon (S3, Glue, Athena, SageMaker)</li>
 										<!-- <li>Google Cloud Platform (GCP), Azure</li> -->
 									</ul>
 								</div>
@@ -378,13 +597,13 @@
 					<!-- Five -->
 						<section id="five">
 
-								<header class="major">
-									<h2>Experiências</h2>
-								</header>
-								<div>
-									<h3>4+ Projetos completos de Ciência de Dados</h3>
-									<p>Projetos desenvolvidos com foco em resolver problemas de negócios</br >
-										Projeto seguem metodologia CRISP-DM</br ></p>
+							<header class="major">
+								<h2>Experiências</h2>
+							</header>
+							<div>
+								<h3>4+ Projetos completos de Ciência de Dados</h3>
+								<p>Projetos desenvolvidos com foco em resolver problemas de negócios</br >
+									Projeto seguem metodologia CRISP-DM</br ></p>
 							</div>
 							<div>
 								<h3>5+ anos de experiência em R</h3>
@@ -415,7 +634,7 @@
 									</li>
 									<li>
 										<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
-										<a href="https://www.linkedin.com/in/caiopc/">LinedIn Caio Casagrande</a>
+										<a href="https://www.linkedin.com/in/caiopc/">LinkedIn Caio Casagrande</a>
 									</li>
 									<li>
 										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>

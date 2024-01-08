@@ -36,7 +36,7 @@
 						<header class="major">
 							<h2>Seja bem-vindo(a) ao meu portfólio de projetos!</h2>
 						</header>
-						<p>Aqui eu busco apresentar um pouco sobre as minhas habilidades para resolver problemas de negócios através de Análise de Dados, Estatística, Economia e Machine Learning. Já realizei projetos de <strong>elasticidade de preço da demanda</strong>, análise de <strong>market basket</strong> e <strong>recomendação de produtos</strong>, <strong>previsão de vendas</strong> e <strong>previsão de destino de táxis</strong>, <strong>classificação de satisfação de clientes</strong>, <strong>detecção de doenças em diagnósticos</strong> e <strong>detecção de fraudes</strong>, análises de <strong>scores de crédito</strong>.<br/>
+						<p>Aqui eu busco apresentar um pouco sobre as minhas habilidades para resolver problemas de negócios através de Análise de Dados, Estatística, Economia e Machine Learning. Já realizei projetos de <strong>elasticidade de preço da demanda</strong>, <strong>previsão de vendas</strong>, <strong>previsão de receitas com séries temporais</strong> e <strong>previsão de destino de táxis</strong>, <strong>classificação de satisfação de clientes</strong>, <strong>detecção de doenças em diagnósticos</strong> e <strong>detecção de fraudes</strong>, análises de <strong>scores de crédito</strong>.<br/>
 						<br/>A seguir, é possível encontrar informações <a href="#two">sobre mim</a>, meus <a href="#three">projetos</a> em Análise e Ciência de Dados, as <a href="#four">habilidades</a> e ferramentas em projetos, bem como minha <a href="#five">experiência</a> em resolvê-los.<br/>
 						<br/>Sinta-se à vontade para entrar em <a href="#six">contato</a> comigo através dos links disponíveis no final da página.</p>
 						<!-- <ul class="actions">
@@ -74,49 +74,48 @@
 
 							<article class="col-6 col-12-xsmall work-item">
 								
-								<h2>Classificação de Clientes InStyle</h2>
+								<h2>Como prever receitas com séries temporais em Python: um case da Olist</h2>
 								
-								<a href="images/fulls/instyle-fulls.jpg" class="image fit thumb"><img src="images/thumbs/instyle-thumbs.jpg" alt="" /></a>
+								<a href="images/fulls/arima-revenue-fulls.png" class="image fit thumb"><img src="images/thumbs/arima-revenue-thumbs.png" alt="" /></a>
 								
 								<section>
 									<h3>Problema de Negócio:</h3>
 										<ul>
-											<li>A loja de moda InStyle enfrenta desafios significativos em relação à experiência do cliente</li>
-											<li>A equipe foi encarregada de treinar um algoritmo para classificar clientes entre "Satisfeito" e "Neutro ou Insatisfeito", prevendo clientes insatisfeitos para agir rapidamente e reverter o cenário</li>
+											<li>A Olist encontrou um desafio na gestão das suas receitas devido a flutuações imprevistas nas vendas.</li>
+											<li>Eles esperavam vender muito mais nesta época do ano e fatores externos tornaram difícil para a empresa antecipar sua situação financeira.</li>
 										</ul>
 									
 									<h3>Objetivos:</h3>
 										<ul>
-											<li>Gerar insights através dos dados</li>
-											<li>Produzir informações visuais sobre a base de clientes</li>
-											<li>Classificar e identificar clientes insatisfeitos através de um algoritmo de Machine Learning</li>
+											<li>Para resolver este problema, o gestor de dados sugeriu a utilização da metodologia de Séries Temporais univariada ARIMA para prever a receita das duas semanas seguintes.</li>
+											<li>O objetivo principal é fornecer ao Olist modelos de previsão robustos, capazes de prever receitas para os próximos 14 dias.</li>
+											<li>Ao obter insights sobre vendas futuras, a Olist pode fazer ajustes financeiros estratégicos de forma proativa para otimizar suas operações.</li>
 										</ul>
 
-									<h3>Benefícios:</h3>
+									<h3>Resultados:</h3>
 										<ul>
-											<li>Elevação da satisfação do cliente</li>
-											<li>Fidelização e retenção</li>
-											<li>Direcionamento eficiente de marketing</li>
-											<li>Otimização de custos</li>
-											<li>Otimização do fluxo de trabalho</li>
+											<li>Em geral, os modelos produziram bons resultados com pequenos erros relativos para os próximos quatorze dias de receita.</li>
+											<li>Os modelos Auto ARIMA e SARIMA se destacam por serem capazes de capturar os movimentos de oscilação dos dados no futuro.</li>
+											<li>Agora, munida de modelos de previsão com baixos erros, a Olist pode prever receitas a fim de melhorar sua organização financeira, otimizar os recursos necessários e planejar investimentos para o futuro.</li>
+											
 										</ul>
 									
 									<h3>Ferramentas Utilizadas:</h3>
 										<ul>
-											<li>Pandas, Numpy, Matplotlib, Seaborn</li>
-											<li>Análise Exploratória de Dados</li>
-											<li><strong>Logistic Regression, RandomForestClassifier, XGBClassifier, LGBMClassifier</strong></li>
-											<li>Acurácia, Precisão, Recall, F1 Score, Classification Report e Matriz de Confusão</li>
-											<li>Cross-Validation e Hyperparameter Tuning (RandomizerSearchCV)</li>
+											<li>Decomposição sazonal</li>
+											<li>Augmented Dickey-Fuller (ADF) e Kwiatkowski-Phillips-Schmidt-Shin (KPSS)</li>
+											<li>Função de Autocorrelação (ACF) e Função Parcial de Autocorrelação (PACF)</li>
+											<li>Auto ARIMA, ARIMA e SARIMA</li>											
 										</ul>
 								</section>
 							
 								<section>
-									<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/instyle/blob/main/notebooks/instyle.ipynb" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+									<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/arima_revenue" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+									<h3>Leia sobre o processo do projeto no Medium (english): <a href="https://medium.com/@caiocasagrande/using-arima-in-python-to-forecast-olist-revenue-3e19fbe6e424" class="icon brands fa-medium" title="Medium"><span class="label">Medium</span></a></h3>
 								</section>
 
 							</article>
-
+							
 							<!-- Segundo Projeto -->
 
 							<!-- Projeto: Previsão de Destino de Táxis -->
@@ -171,8 +170,55 @@
 								</section>
 							</article>
 
-														
 							<!-- Terceiro Projeto -->
+
+							<article class="col-6 col-12-xsmall work-item">
+								
+								<h2>Classificação de Clientes InStyle</h2>
+								
+								<a href="images/fulls/instyle-fulls.jpg" class="image fit thumb"><img src="images/thumbs/instyle-thumbs.jpg" alt="" /></a>
+								
+								<section>
+									<h3>Problema de Negócio:</h3>
+										<ul>
+											<li>A loja de moda InStyle enfrenta desafios significativos em relação à experiência do cliente</li>
+											<li>A equipe foi encarregada de treinar um algoritmo para classificar clientes entre "Satisfeito" e "Neutro ou Insatisfeito", prevendo clientes insatisfeitos para agir rapidamente e reverter o cenário</li>
+										</ul>
+									
+									<h3>Objetivos:</h3>
+										<ul>
+											<li>Gerar insights através dos dados</li>
+											<li>Produzir informações visuais sobre a base de clientes</li>
+											<li>Classificar e identificar clientes insatisfeitos através de um algoritmo de Machine Learning</li>
+										</ul>
+
+									<h3>Benefícios:</h3>
+										<ul>
+											<li>Elevação da satisfação do cliente</li>
+											<li>Fidelização e retenção</li>
+											<li>Direcionamento eficiente de marketing</li>
+											<li>Otimização de custos</li>
+											<li>Otimização do fluxo de trabalho</li>
+										</ul>
+									
+									<h3>Ferramentas Utilizadas:</h3>
+										<ul>
+											<li>Pandas, Numpy, Matplotlib, Seaborn</li>
+											<li>Análise Exploratória de Dados</li>
+											<li><strong>Logistic Regression, RandomForestClassifier, XGBClassifier, LGBMClassifier</strong></li>
+											<li>Acurácia, Precisão, Recall, F1 Score, Classification Report e Matriz de Confusão</li>
+											<li>Cross-Validation e Hyperparameter Tuning (RandomizerSearchCV)</li>
+										</ul>
+								</section>
+							
+								<section>
+									<h3>Veja o projeto completo no GitHub: <a href="https://github.com/caiocasagrande/instyle/blob/main/notebooks/instyle.ipynb" class="icon brands fa-github" title="GitHub"><span class="label">GitHub</span></a></h3>
+								</section>
+
+							</article>
+
+														
+							<!-- Quarto Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
 								
@@ -219,7 +265,7 @@
 
 							</article>
 
-							<!-- Quarto Projeto -->
+							<!-- Quinto Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
 								
@@ -265,7 +311,7 @@
 
 							</article>
 
-							<!-- Quinto Projeto -->
+							<!-- Sexto Projeto -->
 
 							<!-- Projeto: Elasticidade-preço da demanda -->
 
@@ -314,7 +360,7 @@
 								</section>
 							</article>
 
-							<!-- Sexto Projeto -->
+							<!-- Sétimo Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
 
@@ -364,7 +410,7 @@
 								</section>
 							</article>
 
-							<!-- Sétimo Projeto -->
+							<!-- Oitavo Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
 
@@ -416,7 +462,7 @@
 							</article>
 
 
-							<!-- Oitavo Projeto -->
+							<!-- Nono Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
 
@@ -465,7 +511,7 @@
 								</section>
 							</article>
 							
-							<!-- Nono Projeto -->
+							<!-- Décimo Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
 								
@@ -517,7 +563,7 @@
 
 							</article>
 							
-							<!-- Décimo Projeto -->
+							<!-- Décimo primeiro Projeto -->
 
 							<article class="col-6 col-12-xsmall work-item">
 								
